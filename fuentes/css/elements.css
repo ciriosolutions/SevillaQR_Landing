@@ -1,0 +1,132 @@
+/* ========== Elements ========== */
+
+/* Table of Contents
+==================================================
+    #Headings
+    #Buttons 
+*/
+
+
+/* #Headings
+================================================== */
+
+	h1 {
+		font-size: 36px;
+		font-weight: 400;
+		color: #fff;
+		line-height: 110%;
+		text-shadow: 0px 3px 1px rgba(0, 0, 0, .40);
+		filter: dropshadow(color=rgba(0, 0, 0, .40), offx=0, offy=3);
+	}
+	
+	h2 {
+		font-size: 24px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	h3 {
+		font-size: 20px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	h4 {
+		font-size: 16px;
+		font-weight: 400;
+		color: #093331;
+	}
+	
+	hr.top, hr.bottom { display: block; border: none; width: 940px; height: 26px; margin: 0; padding: 0; }
+	
+	hr.top { background: url('../images/separator-top.png') no-repeat; }
+	hr.bottom { background: url('../images/separator-bottom.png') no-repeat; }
+	
+
+/* #Buttons
+================================================== */
+
+	.button {
+		display: inline-block;
+		outline: none;
+		cursor: pointer;
+		color: #000;
+		text-align: center;
+		text-decoration: none;
+		font-size: 22px;
+		padding: 15px 40px;
+		text-shadow: 0 1px 1px rgba(0,0,0,.3);
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		background: #a7d163;
+		background: -webkit-gradient(linear, left top, left bottom, from(#a7d163), to(#8aad51));
+		background: -moz-linear-gradient(top,  #a7d163,  #8aad51);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a7d163', endColorstr='#8aad51');
+	}
+	
+	.button:hover {
+		color: #000;
+		-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		background: #8aad51;
+		background: -webkit-gradient(linear, left top, left bottom, from(#8aad51), to(#a7d163));
+		background: -moz-linear-gradient(top,  #8aad51,  #a7d163);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8aad51', endColorstr='#a7d163');
+	}
+	
+	.button:active {
+		color: #000; 
+		position: relative; 
+		top: 3px;
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		box-shadow: inset 0px 1px 1px rgba(255,255,255,.4); 
+	}
+	
+	.buttonWeb {
+		display: inline-block;
+		outline: none;
+		cursor: pointer;
+		color: #000;
+		text-align: center;
+		text-decoration: none;
+		font-size: 22px;
+		padding: 15px 40px;
+		text-shadow: 0 1px 1px rgba(0,0,0,.3);
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.7);
+		background: #d9d8d7;
+		background: -webkit-gradient(linear, left top, left bottom, from(#d9d8d7), to(#a2a1a0));
+		background: -moz-linear-gradient(top,  #d9d8d7,  #a2a1a0);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d8d7', endColorstr='#a2a1a0');
+	}
+	
+	.buttonWeb:hover {
+		color: #000;
+		-webkit-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		-moz-box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		box-shadow: 0 3px 1px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.4);
+		background: #a2a1a0;
+		background: -webkit-gradient(linear, left top, left bottom, from(#a2a1a0), to(#d9d8d7));
+		background: -moz-linear-gradient(top,  #a2a1a0,  #d9d8d7);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2a1a0', endColorstr='#d9d8d7');
+	}
+	
+	.buttonWeb:active {
+		color: #000; 
+		position: relative; 
+		top: 3px;
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,.4);
+		box-shadow: inset 0px 1px 1px rgba(255,255,255,.4); 
+	}
+		
